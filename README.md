@@ -1,3 +1,5 @@
+# Fork note: See [nixpkgs](https://github.com/hughobrien/nixpkgs/blob/bb066940565b357288ffe03179c1e56ed3af12c4/pkgs/applications/virtualization/qemu/default.nix#L146) derivation also
+
 # QEMU MESA GL/3Dfx Glide Pass-Through
 Copyright (C) 2018-2022<br>
 KJ Liew \<liewkj@yahoo.com\>
