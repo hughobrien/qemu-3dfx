@@ -84,7 +84,7 @@ if [ -z $(which wcc386 2>/dev/null) ]; then
     echo -- DOS32 OVL not supported --
     sed -i -e "/.*make\ \-C\ .*ovl/d" $MKFILE
 fi
-if [ -z $(which i686-pc-msdosdjgpp-gcc 2>/dev/null) ]; then
+if [ -z $(which i586-pc-msdosdjgpp-gcc 2>/dev/null) ]; then
     echo -- DJGPP DXE not supported --
     sed -i -e "/.*make\ \-C\ .*dxe/d" $MKFILE
 fi
